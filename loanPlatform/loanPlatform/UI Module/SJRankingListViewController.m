@@ -7,6 +7,7 @@
 //
 
 #import "SJRankingListViewController.h"
+#import "SJRankListView.h"
 
 @implementation SJRankingListViewController
 
@@ -15,6 +16,9 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"月度排名";
+    
+    SJRankListView *list = [[SJRankListView alloc] initWithFrame:FullViewSize style:UITableViewStylePlain];
+    [self.view addSubview:list];
 }
 
 - (void)viewWillAppear:(BOOL)animated

@@ -7,6 +7,7 @@
 //
 
 #import "SJRecommendListViewController.h"
+#import "SJRecommendView.h"
 
 @implementation SJRecommendListViewController
 
@@ -15,6 +16,9 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"成功案例";
+    
+    SJRecommendView *list = [[SJRecommendView alloc] initWithFrame:FullViewSize style:UITableViewStylePlain];
+    [self.view addSubview:list];
 }
 
 - (void)viewWillAppear:(BOOL)animated

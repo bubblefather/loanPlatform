@@ -32,7 +32,7 @@
     banner.dataSource = self;
     banner.delegate = self;
     banner.autoscroll = 0.3;
-    [self addSubview:banner];
+    [self addSubview:banner]; 
 }
 
 - (void)setUpList

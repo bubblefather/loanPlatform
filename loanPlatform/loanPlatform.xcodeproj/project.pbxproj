@@ -47,6 +47,11 @@
 		36E037FC1B0A366100450736 /* SJRankingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E037FB1B0A366100450736 /* SJRankingListViewController.m */; };
 		36E037FF1B0A367300450736 /* SJPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E037FE1B0A367300450736 /* SJPersonalCenterViewController.m */; };
 		36E0380A1B0A3E3500450736 /* SJRecentListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E038091B0A3E3500450736 /* SJRecentListView.m */; };
+		36E0388C1B0CE0B300450736 /* SJRecommendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E0388B1B0CE0B300450736 /* SJRecommendView.m */; };
+		36E0388F1B0CE0EE00450736 /* SJBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E0388E1B0CE0EE00450736 /* SJBaseTableView.m */; };
+		36E038921B0CE1B400450736 /* SJRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E038911B0CE1B400450736 /* SJRecommendCell.m */; };
+		36E038951B0CE42000450736 /* SJRecomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E038941B0CE42000450736 /* SJRecomModel.m */; };
+		36E038981B0CE7E200450736 /* SJRankListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E038971B0CE7E200450736 /* SJRankListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +127,16 @@
 		36E037FE1B0A367300450736 /* SJPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJPersonalCenterViewController.m; sourceTree = "<group>"; };
 		36E038081B0A3E3500450736 /* SJRecentListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRecentListView.h; sourceTree = "<group>"; };
 		36E038091B0A3E3500450736 /* SJRecentListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRecentListView.m; sourceTree = "<group>"; };
+		36E0388A1B0CE0B300450736 /* SJRecommendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRecommendView.h; sourceTree = "<group>"; };
+		36E0388B1B0CE0B300450736 /* SJRecommendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRecommendView.m; sourceTree = "<group>"; };
+		36E0388D1B0CE0EE00450736 /* SJBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBaseTableView.h; sourceTree = "<group>"; };
+		36E0388E1B0CE0EE00450736 /* SJBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBaseTableView.m; sourceTree = "<group>"; };
+		36E038901B0CE1B400450736 /* SJRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRecommendCell.h; sourceTree = "<group>"; };
+		36E038911B0CE1B400450736 /* SJRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRecommendCell.m; sourceTree = "<group>"; };
+		36E038931B0CE42000450736 /* SJRecomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRecomModel.h; sourceTree = "<group>"; };
+		36E038941B0CE42000450736 /* SJRecomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRecomModel.m; sourceTree = "<group>"; };
+		36E038961B0CE7E200450736 /* SJRankListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRankListView.h; sourceTree = "<group>"; };
+		36E038971B0CE7E200450736 /* SJRankListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRankListView.m; sourceTree = "<group>"; };
 		DA2350681BF4FB243E0D1CB1 /* Pods-loanPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loanPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-loanPlatform/Pods-loanPlatform.release.xcconfig"; sourceTree = "<group>"; };
 		F34D384E44A6671A1CA7C1AE /* Pods-loanPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loanPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-loanPlatform/Pods-loanPlatform.debug.xcconfig"; sourceTree = "<group>"; };
 		F944AB3203A9ADAD0F86705C /* libPods-loanPlatform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loanPlatform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -379,6 +394,8 @@
 			children = (
 				36356DA21B08EBE900A205F0 /* SJBaseViewController.h */,
 				36356DA31B08EBE900A205F0 /* SJBaseViewController.m */,
+				36E0388D1B0CE0EE00450736 /* SJBaseTableView.h */,
+				36E0388E1B0CE0EE00450736 /* SJBaseTableView.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -453,6 +470,10 @@
 		36E038021B0A36A000450736 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				36E0388A1B0CE0B300450736 /* SJRecommendView.h */,
+				36E0388B1B0CE0B300450736 /* SJRecommendView.m */,
+				36E038901B0CE1B400450736 /* SJRecommendCell.h */,
+				36E038911B0CE1B400450736 /* SJRecommendCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -460,6 +481,8 @@
 		36E038031B0A36A600450736 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				36E038931B0CE42000450736 /* SJRecomModel.h */,
+				36E038941B0CE42000450736 /* SJRecomModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -467,6 +490,8 @@
 		36E038041B0A36B400450736 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				36E038961B0CE7E200450736 /* SJRankListView.h */,
+				36E038971B0CE7E200450736 /* SJRankListView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -631,15 +656,20 @@
 				36E037E91B0A2E3900450736 /* NetUtls.m in Sources */,
 				36356D721B08E67800A205F0 /* UIColor+Hex.m in Sources */,
 				36356D751B08E67800A205F0 /* UIView+Frame.m in Sources */,
+				36E038921B0CE1B400450736 /* SJRecommendCell.m in Sources */,
 				36356D771B08E67800A205F0 /* z_DateTime.m in Sources */,
 				36356D7A1B08E67800A205F0 /* z_Sandbox.m in Sources */,
 				36356D781B08E67800A205F0 /* z_Log.m in Sources */,
+				36E0388C1B0CE0B300450736 /* SJRecommendView.m in Sources */,
 				36356D2B1B08E02400A205F0 /* AppDelegate.m in Sources */,
 				36356D741B08E67800A205F0 /* UIImage+UIImageScale.m in Sources */,
 				36E037FC1B0A366100450736 /* SJRankingListViewController.m in Sources */,
 				36E037F61B0A364100450736 /* SJRecentListViewController.m in Sources */,
+				36E0388F1B0CE0EE00450736 /* SJBaseTableView.m in Sources */,
+				36E038981B0CE7E200450736 /* SJRankListView.m in Sources */,
 				36356D7C1B08E67800A205F0 /* z_SystemInfo.m in Sources */,
 				36E037F91B0A365200450736 /* SJRecommendListViewController.m in Sources */,
+				36E038951B0CE42000450736 /* SJRecomModel.m in Sources */,
 				36356D761B08E67800A205F0 /* z_AppStore.m in Sources */,
 				36356D281B08E02400A205F0 /* main.m in Sources */,
 			);
